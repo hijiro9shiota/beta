@@ -1,0 +1,16 @@
+[
+  {
+    "id": "sec-maths",
+    "userId": "demo-user",
+    "title": "Mathématiques avancées",
+    "color": "#4a90e2",
+    "createdAt": "2024-01-02T10:00:00.000Z"
+  },
+  {
+    "id": "sec-history",
+    "userId": "demo-user",
+    "title": "Histoire moderne",
+    "color": "#d9534f",
+    "createdAt": "2024-01-03T10:00:00.000Z"
+  }
+]

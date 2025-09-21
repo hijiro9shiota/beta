@@ -1,0 +1,148 @@
+.css-icon {
+  --icon-size: 1.75rem;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+
+.css-icon::before,
+.css-icon::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+}
+
+.css-icon--micro::before {
+  border: 2px solid currentColor;
+  border-radius: 1rem;
+  inset: 20%;
+}
+
+.css-icon--micro::after {
+  width: 40%;
+  height: 25%;
+  border: 2px solid currentColor;
+  border-top: none;
+  bottom: 10%;
+  left: 30%;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.css-icon--brain::before {
+  background: radial-gradient(circle at 30% 30%, #ff9a9e, transparent 60%), radial-gradient(circle at 70% 30%, #fad0c4, transparent 60%), radial-gradient(circle at 50% 70%, #fbc2eb, transparent 60%);
+  filter: saturate(1.2);
+  border-radius: 40% 60% 55% 45% / 50% 45% 55% 50%;
+}
+
+.css-icon--sun::before {
+  background: conic-gradient(from 0deg, currentColor 0 20deg, transparent 20deg 40deg);
+  mask: radial-gradient(circle at center, transparent 45%, black 46%);
+}
+
+.css-icon--moon::before {
+  background: currentColor;
+  mask: radial-gradient(circle at 60% 40%, transparent 56%, black 57%);
+}
+
+.css-icon--upload::before {
+  border: 2px solid currentColor;
+  border-radius: 0.5rem;
+  inset: 20% 10% 10% 10%;
+}
+
+.css-icon--upload::after {
+  width: 30%;
+  height: 30%;
+  border-top: 2px solid currentColor;
+  border-left: 2px solid currentColor;
+  transform: rotate(45deg);
+  top: 25%;
+}
+
+.css-icon--play::before {
+  border-left: 0.6rem solid currentColor;
+  border-top: 0.4rem solid transparent;
+  border-bottom: 0.4rem solid transparent;
+  left: 35%;
+}
+
+.css-icon--pause::before,
+.css-icon--pause::after {
+  width: 0.2rem;
+  height: 60%;
+  background: currentColor;
+  top: 20%;
+}
+
+.css-icon--pause::before {
+  left: 30%;
+}
+
+.css-icon--pause::after {
+  right: 30%;
+}
+
+.css-icon--stop::before {
+  background: currentColor;
+  inset: 25%;
+  border-radius: 0.3rem;
+}
+
+.css-icon--download::before {
+  border-radius: 0.5rem;
+  inset: 25% 20% 35% 20%;
+  border: 2px solid currentColor;
+}
+
+.css-icon--download::after {
+  width: 36%;
+  height: 36%;
+  border-bottom: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  bottom: 15%;
+  transform: rotate(45deg);
+}
+
+.css-icon--quiz::before {
+  border-radius: 0.5rem;
+  border: 2px solid currentColor;
+  inset: 10%;
+}
+
+.css-icon--quiz::after {
+  width: 45%;
+  height: 45%;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  top: 20%;
+  left: 28%;
+  box-shadow: 0 0 0 2px var(--color-surface);
+}
+
+.css-icon--cards::before {
+  inset: 15% 20% 15% 20%;
+  border-radius: 0.75rem;
+  border: 2px solid currentColor;
+  box-shadow: 0.4rem 0.4rem 0 0 currentColor;
+}
+
+.css-icon--search::before {
+  border: 3px solid currentColor;
+  border-radius: 50%;
+  inset: 20%;
+}
+
+.css-icon--search::after {
+  width: 10%;
+  height: 35%;
+  background: currentColor;
+  right: 18%;
+  bottom: 15%;
+  transform: rotate(45deg);
+  border-radius: 1rem;
+}

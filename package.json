@@ -1,0 +1,20 @@
+{
+  "name": "assistant-de-cours",
+  "version": "1.0.0",
+  "description": "Assistant de cours avec transcription, IA simul\u00e9e et organisation par sections.",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server/server.js",
+    "test": "NODE_ENV=test node --test"
+  },
+  "keywords": [
+    "transcription",
+    "education",
+    "assistant"
+  ],
+  "author": "Assistant",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

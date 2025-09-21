@@ -1,0 +1,15 @@
+[
+  {
+    "id": "sess-maths-1",
+    "sectionId": "sec-maths",
+    "title": "Analyse réelle - suites et séries",
+    "startedAt": "2024-02-10T08:30:00.000Z",
+    "durationSec": 3600,
+    "markers": [
+      { "t": 120, "label": "Définition" },
+      { "t": 900, "label": "Exemple" }
+    ],
+    "transcriptPath": "/public/transcripts/sess-maths-1.txt",
+    "status": "saved"
+  }
+]

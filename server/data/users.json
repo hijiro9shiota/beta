@@ -1,0 +1,9 @@
+[
+  {
+    "id": "demo-user",
+    "email": "demo@example.com",
+    "name": "Professeur Demo",
+    "locale": "fr-FR",
+    "createdAt": "2024-01-01T09:00:00.000Z"
+  }
+]
